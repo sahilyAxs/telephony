@@ -1,7 +1,9 @@
 import { io } from 'socket.io-client';
 
 // Use your laptop's IP address
-const SOCKET_URL = 'http://192.168.1.109:5000';
+// const SOCKET_URL = 'http://192.168.1.109:5000';
+const SOCKET_URL = 'https://new-voice-backend.onrender.com';
+
 
 // Create socket connection
 const socket = io(SOCKET_URL, {
