@@ -1,4 +1,4 @@
-// import Call from './Call'
+import Call from './Call'
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         boxShadow: '0 20px 60px rgba(0,0,0,0.3)',
         overflow: 'hidden'
       }}>
-        {/* <Call /> */}
+        <Call />
         <p>sss</p>
       </div>
     </div>
