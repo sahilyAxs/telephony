@@ -8,7 +8,7 @@ function App() {
       padding: '20px'
     }}>
       <div style={{
-        maxWidth: '1000px',
+        maxWidth: '1200px',
         margin: '0 auto',
         backgroundColor: 'white',
         borderRadius: '20px',
@@ -16,7 +16,15 @@ function App() {
         overflow: 'hidden'
       }}>
         <Call />
-        <p>sss</p>
+      </div>
+      <div style={{
+        textAlign: 'center',
+        marginTop: '20px',
+        color: 'white',
+        fontSize: '14px',
+        opacity: 0.8
+      }}>
+        <p>WebRTC Voice Call Application | Check console for detailed logs (F12)</p>
       </div>
     </div>
   )
